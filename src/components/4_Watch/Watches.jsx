@@ -8,7 +8,7 @@ function Watches() {
   return (
     <div className="watch_page_container">
       <div>
-        <div>
+        <div className="sub_page_tag">
           <span>
             Home → <strong>Watches</strong>
           </span>

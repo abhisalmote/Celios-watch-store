@@ -29,7 +29,8 @@
 
 .description_container img {
   max-width: 60%;
-  padding: 20%;
+  padding-top: 5%;
+  padding-left: 20%;
   cursor: pointer;
 }
 
@@ -45,4 +46,64 @@
 
 .description_container button {
   margin: 10px 0px 20px 12px;
+}
+
+@media (max-width: 820px) {
+  .sub_page_tag {
+    font-size: 12px;
+  }
+  .Filter_Container h3 {
+    font-size: 16px;
+  }
+  .Filter_Container span {
+    font-size: 14px;
+  }
+  .Filter_Container button {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 489px) {
+  .sub_page_tag {
+    font-size: 10px;
+  }
+  .Filter_Container h3 {
+    font-size: 14px;
+  }
+  .Filter_Container span {
+    font-size: 12px;
+  }
+  .Filter_Container button {
+    font-size: 10px;
+  }
+  .btn {
+    padding: 4px 8px;
+    margin: 0px 10px;
+  }
+}
+
+@media (max-width: 325px) {
+  .Filter_Container {
+    border: 1px red solid;
+  }
+  .sub_page_tag {
+    font-size: 8px;
+  }
+  .Filter_Container h3 {
+    margin-top: 3px;
+    font-size: 12px;
+  }
+  .Filter_Container span {
+    font-size: 10px;
+  }
+  .btn {
+    padding: 4px 8px;
+    margin: 0px 5px;
+  }
+}
+
+@media (max-width: 279px) {
+  .btn {
+    margin: 10px 5px;
+  }
 }
