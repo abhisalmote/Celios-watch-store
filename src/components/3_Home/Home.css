@@ -1,0 +1,82 @@
+#Main_Banner {
+  width: 100%;
+}
+
+.Poster_Container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Poster_Container img {
+  margin-top: 50px;
+  max-width: 100%;
+}
+
+.Blog_Container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.Blog {
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: 0.3s ease-in-out;
+}
+.Blog:hover {
+  box-shadow: rgba(0, 0, 0, 0.419) 0px 3px 8px;
+}
+.Blog_Container img {
+  padding: 50px 15px 0px 0px;
+  max-width: 350px;
+}
+.Blog_Container h4 {
+  font-weight: 600;
+  margin: 40px;
+}
+
+@media (max-width: 550px) {
+  .Poster_Container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Poster_Container img {
+    margin-top: 50px;
+    margin-left: 5%;
+    max-width: 90%;
+  }
+  .Blog_Container h4 {
+    font-size: 14px;
+    margin: 40px;
+  }
+}
+
+@media (max-width: 435px) {
+  .Blog {
+    max-width: 90%;
+    margin-top: 50px;
+    border-radius: 25px;
+  }
+  .Blog_Container img {
+    padding: 50px 15px 0px 0px;
+    max-width: 100%;
+  }
+  .Blog_Container h4 {
+    font-size: 14px;
+    margin: 30px;
+  }
+}
+
+@media (max-width: 335px) {
+  .Blog_Container h4 {
+    font-size: 12px;
+    margin: 30px 20px;
+  }
+}
