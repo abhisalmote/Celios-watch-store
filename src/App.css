@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  font-family: sans-serif, "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  margin: 0px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+h4 {
+  margin: 0px;
+}
+
+h5 {
+  margin: 0px;
+}
+
+.Icons {
+  width: 22px;
+  margin: 0px 12px;
+  cursor: pointer;
+}
+
+.color {
+  color: red;
+}
+
+li {
+  list-style: none;
+}
