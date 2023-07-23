@@ -1,0 +1,48 @@
+.watch_page_container {
+  margin: 15px 25px;
+}
+.Filter_Container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.display_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.description_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 230px;
+  margin: 2%;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.description_container img {
+  max-width: 60%;
+  padding: 20%;
+  cursor: pointer;
+}
+
+.description_container h4 {
+  margin: 10px 0px 5px 15px;
+}
+
+.description_container p {
+  font-size: 13px;
+  color: rgb(86, 75, 75);
+  margin: 0px 0px 5px 15px;
+}
+
+.description_container button {
+  margin: 10px 0px 20px 12px;
+}
