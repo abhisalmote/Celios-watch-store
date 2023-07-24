@@ -1,10 +1,8 @@
 import React from "react";
 import "../4_Watch/Watches.css";
-import { useState } from "react";
 import All_Watches from "../Assets/Helper/AllWatch_Array";
 
 function Watches() {
-  const [btnValue, setBtnValue] = useState("Low to High");
   return (
     <div className="watch_page_container">
       <div>

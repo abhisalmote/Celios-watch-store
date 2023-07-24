@@ -48,7 +48,7 @@
   margin: 10px 0px 20px 12px;
 }
 
-@media (max-width: 820px) {
+@media (max-width: 821px) {
   .sub_page_tag {
     font-size: 12px;
   }
@@ -61,49 +61,188 @@
   .Filter_Container button {
     font-size: 12px;
   }
-}
-
-@media (max-width: 489px) {
-  .sub_page_tag {
-    font-size: 10px;
+  .display_container {
+    margin-top: 25px;
   }
-  .Filter_Container h3 {
+
+  .description_container {
+    max-width: 180px;
+    margin: 2%;
+  }
+
+  .description_container img {
+    max-width: 50%;
+    padding-top: 5%;
+    padding-left: 25%;
+  }
+
+  .description_container h4 {
     font-size: 14px;
+    margin: 10px 0px 5px 15px;
   }
-  .Filter_Container span {
-    font-size: 12px;
+
+  .description_container p {
+    font-size: 11px;
+    margin: 0px 0px 5px 15px;
   }
-  .Filter_Container button {
-    font-size: 10px;
-  }
-  .btn {
-    padding: 4px 8px;
-    margin: 0px 10px;
+
+  .description_container button {
+    margin: 10px 0px 20px 12px;
   }
 }
 
-@media (max-width: 325px) {
-  .Filter_Container {
-    border: 1px red solid;
-  }
+@media (max-width: 670px) {
   .sub_page_tag {
     font-size: 8px;
   }
   .Filter_Container h3 {
-    margin-top: 3px;
     font-size: 12px;
   }
   .Filter_Container span {
     font-size: 10px;
   }
+  .Filter_Container button {
+    font-size: 8px;
+  }
+  .display_container {
+    margin-top: 20px;
+  }
   .btn {
-    padding: 4px 8px;
-    margin: 0px 5px;
+    padding: 4px;
+    margin: 0px 8px;
+  }
+  .description_container {
+    max-width: 140px;
+    margin: 1.5%;
+  }
+
+  .description_container img {
+    max-width: 45%;
+    padding-top: 5%;
+    padding-left: 29%;
+  }
+
+  .description_container h4 {
+    font-size: 12px;
+    margin: 10px 0px 5px 15px;
+  }
+
+  .description_container p {
+    font-size: 10px;
+    margin: 0px 0px 5px 15px;
+  }
+
+  .description_container button {
+    margin: 8px 0px 15px 10px;
+  }
+
+  .tag_btn {
+    border-radius: 25px;
+    padding: 2px 6px;
+    font-size: 8px;
   }
 }
 
-@media (max-width: 279px) {
+@media (max-width: 512px) {
+  .sub_page_tag {
+    font-size: 8px;
+  }
+  .Filter_Container h3 {
+    font-size: 11px;
+  }
+  .Filter_Container span {
+    font-size: 9px;
+  }
+  .Filter_Container button {
+    font-size: 8px;
+  }
+  .display_container {
+    margin-top: 20px;
+  }
   .btn {
-    margin: 10px 5px;
+    padding: 2px 4px;
+    margin: 0px 8px;
+  }
+  .description_container {
+    max-width: 110px;
+    margin: 1.5%;
+  }
+
+  .description_container img {
+    max-width: 50%;
+    padding-top: 5%;
+    padding-left: 28%;
+  }
+
+  .description_container h4 {
+    font-size: 10px;
+    margin: 8px 0px 5px 10px;
+  }
+
+  .description_container p {
+    font-size: 10px;
+    margin: 0px 0px 5px 10px;
+  }
+
+  .description_container button {
+    margin: 4px 0px 15px 8px;
+  }
+
+  .tag_btn {
+    border-radius: 25px;
+    padding: 2px 5px;
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 325px) {
+  .sub_page_tag {
+    font-size: 8px;
+  }
+  .Filter_Container h3 {
+    font-size: 11px;
+  }
+  .Filter_Container span {
+    font-size: 9px;
+  }
+  .Filter_Container button {
+    font-size: 8px;
+  }
+  .display_container {
+    margin-top: 15px;
+  }
+  .btn {
+    padding: 2px 4px;
+    margin: 0px 8px;
+  }
+  .description_container {
+    max-width: 110px;
+    margin: 1.5%;
+  }
+
+  .description_container img {
+    max-width: 50%;
+    padding-top: 5%;
+    padding-left: 28%;
+  }
+
+  .description_container h4 {
+    font-size: 9px;
+    margin: 8px 0px 5px 10px;
+  }
+
+  .description_container p {
+    font-size: 8px;
+    margin: 0px 0px 5px 10px;
+  }
+
+  .description_container button {
+    margin: 4px 0px 15px 8px;
+  }
+
+  .tag_btn {
+    border-radius: 25px;
+    padding: 2px 4px;
+    font-size: 6px;
   }
 }
