@@ -204,7 +204,7 @@
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 393px) {
   .watch_page_container {
     margin: 15px;
   }
@@ -228,13 +228,13 @@
     margin: 0px 8px;
   }
   .description_container {
-    max-width: 125px;
+    max-width: 130px;
   }
 
   .description_container img {
-    max-width: 60%;
+    max-width: 70%;
     padding-top: 3%;
-    padding-left: 23%;
+    padding-left: 18%;
   }
 
   .description_container h4 {
