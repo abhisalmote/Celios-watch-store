@@ -238,12 +238,12 @@
   }
 
   .description_container h4 {
-    font-size: 10px;
+    font-size: 12px;
     margin: 6px 0px 5px 8px;
   }
 
   .description_container p {
-    font-size: 6px;
+    font-size: 8px;
     margin: 0px 0px 5px 8px;
   }
 
@@ -253,7 +253,7 @@
 
   .tag_btn {
     border-radius: 25px;
-    padding: 2px 4px;
-    font-size: 6px;
+    padding: 4px 8px;
+    font-size: 8px;
   }
 }
