@@ -117,6 +117,12 @@
     padding: 4px;
     margin: 0px 8px;
   }
+
+  .btn:hover {
+    padding: 4px;
+    margin: 0px 8px;
+  }
+
   .description_container {
     max-width: 140px;
     margin: 1.5%;
@@ -147,6 +153,11 @@
     padding: 2px 6px;
     font-size: 8px;
   }
+
+  .tag_btn:hover {
+    padding: 2px 6px;
+    font-size: 8px;
+  }
 }
 
 @media (max-width: 512px) {
@@ -169,6 +180,11 @@
     margin-top: 20px;
   }
   .btn {
+    padding: 2px 4px;
+    margin: 0px 8px;
+  }
+
+  .btn:hover {
     padding: 2px 4px;
     margin: 0px 8px;
   }
@@ -202,6 +218,11 @@
     padding: 2px 5px;
     font-size: 7px;
   }
+
+  .tag_btn:hover {
+    padding: 2px 5px;
+    font-size: 7px;
+  }
 }
 
 @media (max-width: 393px) {
@@ -227,6 +248,12 @@
     padding: 2px 4px;
     margin: 0px 8px;
   }
+
+  .btn:hover {
+    padding: 2px 4px;
+    margin: 0px 8px;
+  }
+
   .description_container {
     max-width: 130px;
   }
@@ -253,6 +280,11 @@
 
   .tag_btn {
     border-radius: 25px;
+    padding: 4px 8px;
+    font-size: 8px;
+  }
+
+  .tag_btn:hover {
     padding: 4px 8px;
     font-size: 8px;
   }

@@ -4,24 +4,43 @@ import logo from "../Assets/Images/All-Images/Logo.gif";
 import user from "../Assets/Images/All-Images/User.png";
 import cart from "../Assets/Images/All-Images/Cart.png";
 import wishlist from "../Assets/Images/All-Images/Heart-Hollow-Black.png";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav>
       <div className="logo">
-        <img id="logo" src={logo} alt="company logo" />
+        <Link to="/">
+          <img id="logo" src={logo} alt="company logo" />
+        </Link>
       </div>
       <div className="category-list">
-        <h4>Watch</h4>
-        <h4>Men</h4>
-        <h4>Women</h4>
-        <h4>Kid</h4>
-        <h4>Smart</h4>
+        <Link to="/watches">
+          <h4>Watch</h4>
+        </Link>
+        <Link to="/mens">
+          <h4>Men</h4>
+        </Link>
+        <Link to="womens">
+          <h4>Women</h4>
+        </Link>
+        <Link to="kid">
+          <h4>Kid</h4>
+        </Link>
+        <Link to="smart">
+          <h4>Smart</h4>
+        </Link>
       </div>
       <div className="icons-list">
-        <img className="Icons" src={user} alt="profile" />
-        <img className="Icons" src={cart} alt="wishlist" />
-        <img className="Icons" src={wishlist} alt="cart" />
+        <Link to="profile">
+          <img className="Icons" src={user} alt="profile" />
+        </Link>
+        <Link to="wishlist">
+          <img className="Icons" src={cart} alt="wishlist" />
+        </Link>
+        <Link to="cart">
+          <img className="Icons" src={wishlist} alt="cart" />
+        </Link>
       </div>
     </nav>
   );

@@ -6,10 +6,23 @@ import Womens_Poster from "../Assets/Images/All-Images/Women-Poster.webp";
 import Blog_1 from "../Assets/Images/All-Images/Blog-1.jpg";
 import Blog_2 from "../Assets/Images/All-Images/Blog-2.jpg";
 import Blog_3 from "../Assets/Images/All-Images/Blog-3.jpg";
+import { useEffect } from "react";
+import { useLocation } from "react-router";
+
+const ScrollToTop = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
+  return null;
+};
 
 function Home() {
   return (
     <div className="Home_Container">
+      <ScrollToTop />
       <div>
         <img id="Main_Banner" src={Main_Banner} alt="Main Banner" />
       </div>
