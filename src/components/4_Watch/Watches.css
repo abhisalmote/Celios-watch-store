@@ -217,27 +217,27 @@
   }
   .description_container {
     max-width: 110px;
-    margin: 1.5%;
+    margin: 1%;
   }
 
   .description_container img {
-    max-width: 50%;
-    padding-top: 5%;
-    padding-left: 28%;
+    max-width: 60%;
+    padding-top: 3%;
+    padding-left: 23%;
   }
 
   .description_container h4 {
     font-size: 9px;
-    margin: 8px 0px 5px 10px;
+    margin: 6px 0px 5px 8px;
   }
 
   .description_container p {
-    font-size: 8px;
-    margin: 0px 0px 5px 10px;
+    font-size: 6px;
+    margin: 0px 0px 5px 8px;
   }
 
   .description_container button {
-    margin: 4px 0px 15px 8px;
+    margin: 4px 0px 10px 6px;
   }
 
   .tag_btn {
