@@ -8,6 +8,8 @@ import Mens from "./components/5_Men/Mens";
 import Womens from "./components/6_Women/Womens";
 import Kid from "./components/7_Kid/Kid";
 import Smart from "./components/8_Smart/Smart";
+import Signin from "./components/9_User/Login_Info/Signin";
+import Signup from "./components/9_User/Login_Info/Signup";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Construction from "./Construction";
@@ -26,31 +28,41 @@ const appRouter = createBrowserRouter([
         element: <Watches />,
       },
       {
-        path: "mens",
+        path: "/mens",
         element: <Mens />,
       },
       {
-        path: "womens",
+        path: "/womens",
         element: <Womens />,
       },
       {
-        path: "kid",
+        path: "/kid",
         element: <Kid />,
       },
       {
-        path: "smart",
+        path: "/smart",
         element: <Smart />,
       },
       {
-        path: "profile",
+        path: "/profile",
+        element: <Outlet />,
+        children: [
+          {
+            path: "/profile/Signin",
+            element: <Signin />,
+          },
+          {
+            path: "/profile/Signup",
+            element: <Signup />,
+          },
+        ],
+      },
+      {
+        path: "/cart",
         element: <Construction />,
       },
       {
-        path: "cart",
-        element: <Construction />,
-      },
-      {
-        path: "wishlist",
+        path: "/wishlist",
         element: <Construction />,
       },
     ],

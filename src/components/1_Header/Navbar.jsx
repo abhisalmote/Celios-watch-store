@@ -32,7 +32,7 @@ function Navbar() {
         </Link>
       </div>
       <div className="icons-list">
-        <Link to="profile">
+        <Link to="/profile/Signin">
           <img className="Icons" src={user} alt="profile" />
         </Link>
         <Link to="wishlist">

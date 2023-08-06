@@ -57,7 +57,7 @@ function Smart() {
   }
   return (
     <div className="watch_page_container">
-      <ScrollToTop />;
+      <ScrollToTop />
       <img id="Banner" src={Smartwatch_Banner} alt="" />
       <div>
         <div className="sub_page_tag">

@@ -15,38 +15,35 @@ const ScrollToTop = () => {
 
 function Watches() {
   const [watchlist, setWatchList] = useState(All_Watches);
-  const [btnActive1, setBtnActive1] = useState(false);
-  const [btnActive2, setBtnActive2] = useState(false);
+  const [btnActive1, setBtnActive1] = useState("off");
+  const [btnActive2, setBtnActive2] = useState("off");
   const [activeButton, setActiveButton] = useState(null);
 
   function filterList(btnName) {
-    setActiveButton(btnName);
     if (btnName === "Trending") {
-      setActiveButton(btnName);
-      if (!btnActive1) {
+      if (btnActive1 === "off") {
         const filteredList = All_Watches.filter(
           (index) => index.tag === btnName
         );
         setActiveButton(btnName);
-        setBtnActive1(true);
+        setBtnActive1("on");
         setWatchList(filteredList);
       } else {
         setActiveButton(null);
-        setBtnActive1(false);
+        setBtnActive1("off");
         setWatchList(All_Watches);
       }
     } else if (btnName === "New Arrival") {
-      setActiveButton(btnName);
-      if (!btnActive2) {
+      if (btnActive2 === "off") {
         const filteredList = All_Watches.filter(
           (index) => index.tag === btnName
         );
         setActiveButton(btnName);
-        setBtnActive2(true);
+        setBtnActive2("on");
         setWatchList(filteredList);
       } else {
         setActiveButton(null);
-        setBtnActive2(false);
+        setBtnActive2("off");
         setWatchList(All_Watches);
       }
     } else {
