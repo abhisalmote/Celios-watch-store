@@ -36,6 +36,7 @@ const SmartwatchArray = [
     name: "Casio",
     description: "Men︱This is awesome watch",
     price: "₹ 7,585",
+    tag: "Trending",
     category: "smart",
     title: "Amazfit Unisex GTS 2 Mini Series Square Black Smartwatches",
   },
